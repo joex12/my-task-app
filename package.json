@@ -23,7 +23,8 @@
     "generate": "node generate-projects-index.js",
     "start": "npm run generate && react-scripts start",
     "build": "npm run generate && react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "install": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
